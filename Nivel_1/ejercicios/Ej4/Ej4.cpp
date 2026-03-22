@@ -30,7 +30,6 @@ class CuentaBancaria
             else{
                 return false;
             }
-
         }
 
         void retirar(float m) {
