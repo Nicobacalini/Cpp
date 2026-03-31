@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fiframe-document-moderation-modal","\u002Fiframe-document-report"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

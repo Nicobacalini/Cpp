@@ -47,8 +47,6 @@ class MiString{
             cout << "Memoria liberada" << endl;
         }
 
-        
-
         int getLongitud(){
             return this->longitud;
         }
@@ -59,7 +57,7 @@ class MiString{
                 cout<< this->buffer[i]<<endl;
             }
         }
-
+        
         MiString& operator=(const MiString& otro){
             if (this == &otro) return *this;
             delete [] buffer; // liberar memoria anterior
