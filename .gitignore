@@ -1,1 +1,2 @@
 *.dll
+echo ".vscode/" >> .gitignore.vscode/
