@@ -1,2 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2184],{16331:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/jurisprudencia/[...parts]",function(){return _(29823)}])},29823:function(n,u,_){"use strict";_.r(u),_.d(u,{__N_SSP:function(){return r}});var t=_(1521),r=!0;u.default=t.wq}},function(n){n.O(0,[2503,5616,128,558,7438,8435,5724,5948,7709,7191,2888,9774,179],function(){return n(n.s=16331)}),_N_E=n.O()}]);
-//# sourceMappingURL=[...parts]-92f7be044bf77434.js.map
