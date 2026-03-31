@@ -86,7 +86,6 @@ class Aguila : public Volador, public Corredor{
 int main(){
 
     // Creamos animales
-
     Pato donald(15.5, 5.0, 3.2);
     Pinguino skipper(35.0, 4.0);
     Aguila fawkes(120.0, 2.5);
