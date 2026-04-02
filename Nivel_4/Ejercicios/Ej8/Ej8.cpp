@@ -1,6 +1,6 @@
 #include <iostream>
 #include <numeric>
-#include <stdexcept> // Para los errores
+#include <stdexcept>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -91,7 +91,7 @@ int main() {
         registroPromedios[legajoStr] = alumno->promedio();
     }
 
-    // Ordenamos el vector de alumnos por promedio
+    // el vector de alumnos por promedio
     sort(curso.begin(), curso.end(), [](const unique_ptr<Alumno>& a, const unique_ptr<Alumno>& b) {
         return a->promedio() > b->promedio(); 
     });
@@ -102,7 +102,7 @@ int main() {
         cout << "- " << alumno->getNombre() << " (Leg: " << alumno->getLegajo() << ")" << endl;
         cout << "  Promedio: " << alumno->promedio();
         
-        // Usamos el metodo aprueba()
+        // metodo aprueba()
         if (alumno->aprueba()) {
             cout << " -> ESTADO: PROMOCIONA" << endl;
         } else {
