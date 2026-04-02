@@ -9,23 +9,6 @@
 #include <map>
 using namespace std;
 
-
-
-
-/*
-Combiná todos los conceptos del nivel:
-• Clase Alumno con nombre, legajo y vector<float> de notas. Constructor y métodos con
-excepción si nota < 0 o > 10.
-• agregarNota(float n) lanza exception si es inválida.
-• promedio() usando acumulación con un lambda y std::accumulate (<numeric>).
-• aprueba() usando all_of con lambda para verificar si todas las notas son >= 6.
-• En main: vector<unique_ptr<Alumno>> para la clase. Creá 5 alumnos con
-make_unique.
-• Usá un map<string, float> para guardar legajo->promedio de todos los alumnos.
-• Usá sort con lambda para ordenar los alumnos por promedio.
-*/
-
-
 class Alumno
 {
 private:
