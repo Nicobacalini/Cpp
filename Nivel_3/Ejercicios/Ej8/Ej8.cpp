@@ -4,18 +4,6 @@
 using namespace std;
 
 
-/*
-Ejercicio 8: Herencia Múltiple: El Ave
-• Clase Volador con virtual volar() y velocidadVuelo (float).
-• Clase Nadador con virtual nadar() y velocidadNado (float).
-• Clase Corredor con virtual correr() y velocidadCarrera (float).
-• Clase Pato hereda de los tres. Implementa los tres métodos con mensajes específicos.
-• Clase Pingüino hereda de Nadador y Corredor (no puede volar). Implementa los dos métodos.
-• Clase Aguila hereda solo de Volador y Corredor. Implementa los dos.
-• En main, demostrá el polimorfismo con cada clase base apuntando a sus derivadas.
-*/
-
-
 class Volador {
 protected:
     float velocidadVuelo;
