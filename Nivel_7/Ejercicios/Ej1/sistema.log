@@ -1,0 +1,10 @@
+[2026-07-06 16:32:10] [INFO] El sistema ha iniciado correctamente.
+[2026-07-06 16:32:10] [WARNING] Uso de CPU al 80%.
+[2026-07-06 16:32:10] [ERROR] Fallo al conectar con la base de datos.
+[2026-07-06 16:32:10] [INFO] Usuario 'admin' hizo login.
+[2026-07-06 16:32:10] [ERROR] No se encontró el archivo de configuración.
+[2026-07-06 16:32:10] [INFO] Actualización descargada.
+[2026-07-06 16:32:10] [WARNING] Poca memoria RAM disponible.
+[2026-07-06 16:32:10] [ERROR] Crash inesperado en el módulo de red.
+[2026-07-06 16:32:10] [INFO] Reiniciando servicios.
+[2026-07-06 16:32:10] [INFO] Servicios en línea.
